@@ -125,6 +125,7 @@ body
 .nav-bar .icon{
 	display:none;
 }
+
 @media (max-width:600px)
 {
 	.nav-bar ul
@@ -147,5 +148,35 @@ body
 		
 	}
 }
+
+ .column {
+  float: left;
+  padding:20px;
+  }
+
+  .column.side {
+   width: 25%;
+   }
+
+  .column.middle {
+    width: 75%;
+  }
+
+
+  .row:after {
+   content: "";
+   display: table;
+   clear: both;
+  }
+
+
+   @media screen and (max-width: 600px) 
+   {
+    .column.side, .column.middle 
+	{
+    width: 100%;
+   }
+  }
+
 
 	
