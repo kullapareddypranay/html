@@ -22,6 +22,7 @@ body
 	background-image: url("updateimage.jpg");
 	background-repeat:repeat-x;
 	background-attachment:fixed;
+	background-size:cover;
 	font-family:sans-serif;
 }
 
