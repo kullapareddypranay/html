@@ -1,0 +1,111 @@
+<html>
+<style>
+input[type=text],select,input[type=date]{
+   width:70%;
+   padding:12px 20px;
+   margin: 8px 0;
+   display:inline-block;
+   border:1px solid #ccc;
+   border-radius:4px;
+   box-sizing:border-box;
+   outline:none;
+  
+}
+input[type=radio]{
+width:28px;
+}
+ 
+input[type=text]:focus{
+  border: 1px solid #777;
+}
+div{
+border-radius:5px;
+background-color:#f2f2f2;
+padding:20px;
+}
+input[type=submit]{
+  background-color: #4CAF50;
+  color:white;
+  float:right;
+  border:1px solid blue;
+  border-radius:2px;
+  cursor:pointer;
+  padding: 12px 20px;
+  background-color:light blue;
+ }
+ input[type=reset]{
+  background-color: #4CAF50;
+  color:white;
+  float:right;
+  border:1px solid blue;
+  border-radius:2px;
+  cursor:pointer;
+  padding: 12px 20px;
+  background-color:light blue;
+ }
+ 
+ input[type=submit]:hover{
+  border: 1px solid #777;
+  color:black;
+  background-color:white;
+}
+input[type=reset]:hover{
+  border: 1px solid #777;
+  color:black;
+  background-color:white;
+}
+@media screen and (max-width: 600px){
+input[type=submit] ,input[type=reset]{
+width:100%;
+}
+}
+
+
+</style>
+
+<body>
+<h2> fill in the details for account creation</h2>
+<div>
+<form action="/signup_page.php" target="_blank" method="post">
+       <label for="fname">firstname</label>
+	   <br>
+       <input type="text" id="fname" name="firstname" placeholder="firstname" maxlength="20">
+       <br>
+       <label for="lname">lastname</label>
+	   <br>
+       <input type="text" id="lname" name="lastname" placeholder="lastname" maxlength="20">
+       <br>
+	   <label for="country">country</label><br>
+	   
+	 <select id="country" name="country" >
+	    <option value="india">india</option>
+		<option value="usa" selected>usa</option>
+	 </select>
+	 <br>
+	 <label for="category">category</label>
+	 <br>
+	 <select id="cateogry" name="category" >
+	    <option value="teacher">teacher</option>
+		<option value="student" selected>student</option>
+		<option value="general user">general user</option>
+	 </select>
+	 <br>
+	 <br>
+	 <input type="radio" name="gender" value="male" checked>Male <br><br>
+	 <input type="radio" name="gender" value="female" >female <br><br>
+	 <input type="radio" name="gender" value="other" > other <br>
+	 <br>
+	 <label for="dateofbirth" name="dateofbirth">dateofbirth</label><br>
+	
+	 <input type="date" name="dateofbirth" max="2019-12-31">
+	 
+	 <br>
+	 <input type="submit" value="submit" onclick="alert('data is to be submitted!')">&nbsp;
+	 <input type="reset" value="reset"  onclick="alert('data is to be resetted!')">
+	 
+
+
+</form>
+</div>
+</body>
+</html>
