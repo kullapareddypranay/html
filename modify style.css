@@ -53,7 +53,7 @@ body
 
 .active , .nav-bar  li:hover
 {
-	background: rgb(0, 51, 0);
+	background: rgb(13, 13, 13);
 	border-radius:3px;
 }
 
