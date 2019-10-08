@@ -4,12 +4,24 @@
 	margin:0;
 	box-sizing:border-box;
 }
+.header
+ {
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+ }
+ .headerh1
+ {
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-weight:bold;
+ }
 
 body
 {
-	background-image: url("modify.jpg");
-	background-repeat:no-repeat;
-	
+	background-image: url("updateimage.jpg");
+	background-repeat:repeat-x;
+	background-attachment:fixed;
 	background-position:center;
 	font-family:sans-serif;
 }
