@@ -178,7 +178,7 @@ body
    }
   }
 input[type=text] {
-  width: auto;
+  width: 45%;
   float:right;
   font-weight:bold;
   margin-right:15px;
@@ -186,7 +186,7 @@ input[type=text] {
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  background-color:rgb(128, 128, 255);
+  background-color:rgb(230, 230, 255);
   padding: 12px 20px 12px 40px;
 }
 @media screen and (max-width:600px){
