@@ -177,6 +177,10 @@ body
     width: 100%;
    }
   }
+.search{
+	padding:15px;
+}
+
 input[type=text] {
   width: auto;
   float:right;
