@@ -199,10 +199,11 @@ input[type=text] {
 .button{
   background-color:rgb(230, 230, 255);
   float:right;
-  border: none;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  border-radius:4px;
   padding:12px 20px 12px 40px ;
   cursor: pointer;
 }
