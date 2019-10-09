@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+   input[type=text],input[type=password]
+   {
+   width:70%;
+   padding:12px 20px;
+   margin: 8px 0;
+   display:inline-block;
+   border:1px solid #ccc;
+   border-radius:4px;
+   box-sizing:border-box;
+   outline:none;
+   }
+   button
+   {
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 70%;
+   }
+   button:hover 
+   {
+  opacity: 0.8;
+   }
+   
+   .cancelbtn 
+   {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  }
+  .imgcontainer
+  {
+  text-align: center;
+  margin: 24px 12px 12px 0px;
+   }
+   
+   img.profile {
+  width: 18%;
+  border-radius: 50%;
+ }
+
+ 
+.container {
+  padding: 26px;
+ 
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+@media screen and (max-width: 500px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 70%;
+  }
+}
+</style>
+</head>
+<body>
+<form action="/signinpage.php" method="post">
+    <div class="imgcontainer">
+	   <img class="profile" src="profile.png" alt="profile">
+	</div>
+	<div class="container">
+	  <label for="uname"><b>Username:</b></label><br>
+	  <input type="text" id="uname" placeholder="enter username" maxlength="20">
+	  <br>
+	  <label for="passw"><b>Password:</b></label><br>
+	  <input type="text" id="passw" placeholder="***********" maxlength="10"><br>
+	  
+	  <button type="submit">Login</button><br>
+	  <label>
+	    <input type="checkbox" checked="checked" id="remember">Remember me</label>
+	</div>
+	<div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn" >Cancel</button>
+    <span class="psw"><a href="#">Forget password?</a></span>
+    </div>
+</form>
+</body>
+</html>
