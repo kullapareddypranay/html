@@ -188,21 +188,4 @@ input[type=text] {
   padding: 12px 20px 12px 40px;
   
 }
-input[type=submit]{
-  background-color: #4CAF50;
-  color:white;
-  float:right;
-  border:1px solid blue;
-  border-radius:2px;
-  cursor:pointer;
-  padding: 12px 20px;
-  background-color:light blue;
- }
-@media screen and (max-width:600px)
-	{
-		input[type=text]{
-			float:none;
-			width:100%;
-		}
-}
-	
+
