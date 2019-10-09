@@ -197,8 +197,12 @@ input[type=text] {
   }
  }
 .button{
+  background-color:rgb(230, 230, 255);
   float:right;
   border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   padding:12px 20px 12px 40px ;
   cursor: pointer;
 }
