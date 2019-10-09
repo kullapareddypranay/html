@@ -197,8 +197,9 @@ input[type=text] {
   }
  }
 input[type=submit]{
-  background-color:rgb(230, 230, 255);
+  background-color: rgb(13, 13, 13);
   float:right;
+  color:white;
   box-sizing: border-box;
   border: 2px solid #ccc;
   text-align: center;
