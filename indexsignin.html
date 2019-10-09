@@ -21,6 +21,10 @@
   {
   border: 2px solid #777;
   }
+   input[type=password]:focus
+  {
+  border: 2px solid #777;
+  }
    button
    {
    background-color: #4CAF50;
@@ -80,10 +84,10 @@ span.psw {
 	</div>
 	<div class="container">
 	  <label for="uname"><b>Username:</b></label><br>
-	  <input type="text" id="uname" placeholder="enter username" maxlength="20">
+	  <input type="text" id="uname" placeholder="enter username" maxlength="20" required>
 	  <br>
 	  <label for="passw"><b>Password:</b></label><br>
-	  <input type="password" id="passw" placeholder="***********" maxlength="10"><br>
+	  <input type="password" id="passw" placeholder="***********" maxlength="10" required><br>
 	  
 		<button type="submit" value="submit" onclick="alert('loging in')">Login</button><br/>
 	  <label>
