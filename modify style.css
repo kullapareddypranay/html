@@ -190,10 +190,11 @@ input[type=text] {
   padding: 12px 20px 12px 40px;
 }
 input[type=submit]{
-  background-color: rgb(13, 13, 13);
+  background-color:rgb(179, 179, 255);
   float:right;
   color:white;
   box-sizing: border-box;
+  border: 2px solid #ccc;
   text-align: center;
   text-decoration: none;
   border-radius:2px;
@@ -203,9 +204,9 @@ input[type=submit]{
 
 @media screen and (max-width:600px){
   input[type=text]{
-  float:none;
+  float:right;
   margin:0;
-  width:90%;
+  width:100%;
   }
   input[type=submit]{
   float:right;
