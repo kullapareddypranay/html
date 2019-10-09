@@ -197,6 +197,7 @@ input[type=text] {
   }
  }
 input[type=submit]{
+  float:right;
   background-color: #4CAF50;
   border: none;
   color: white;
