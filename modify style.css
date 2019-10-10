@@ -311,7 +311,7 @@ input[type=file] {
   padding: 0;
   position: absolute !important;
   white-space: nowrap;
-  width: 1px; 
+  width: 100%; 
 }
 input[type=file] + label {
   background-color: #000;
