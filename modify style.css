@@ -311,7 +311,7 @@ div.desc {
 	border-radius:2px;
 	background-color:#f2f2f2;
 }
-. upload input[type=file]
+.upload input[type=file]
 { 
     width:auto; 
     box-sizing: border-box;
@@ -320,7 +320,7 @@ div.desc {
     background-color:white; 
     padding: 12px 20px 12px 40px; 
 } 
-. upload input[type=submit] 
+.upload input[type=submit] 
 {  
    background-color:white;
   float:right;
