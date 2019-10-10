@@ -311,6 +311,39 @@ div.desc {
 	border-radius:2px;
 	background-color:#f2f2f2;
 }
-
+. upload.input[type=file]
+{ 
+    width:auto; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+    background-color:white; 
+    padding: 12px 20px 12px 40px; 
+} 
+. upload.input[type=submit] 
+{  
+   background-color:white;
+  float:right;
+  color: black;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  text-align: center;
+  text-decoration: none;
+  border-radius:2px;
+  cursor: pointer;
+  padding: 12px 20px 12px 40px; 
+} 
+  
+@media screen and (max-width:600px){
+  .upload .input[type=text]{
+  float:right;
+  margin:0;
+  width:100%;
+  }
+ .upload .input[type=submit]{
+  float:right;
+ }
+} 
+ 
 
 	
