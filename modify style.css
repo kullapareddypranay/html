@@ -314,6 +314,7 @@ input[type=file] {
   width: 100%; 
 }
 input[type=file] + label {
+  width:100%;
   background-color: #000;
   border-radius: 4rem;
   color: #fff;
