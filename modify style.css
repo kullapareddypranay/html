@@ -220,7 +220,7 @@ input[type=submit]{
 
  div.gallery {
 
-  border: 1px solid #777;
+  border: 1px solid #ccc;
 
 }
 
@@ -228,7 +228,7 @@ input[type=submit]{
 
 div.gallery:hover {
 
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid #777;
   box-shadow:10px 10px 5px rgb(153, 153, 255);
 
 }
