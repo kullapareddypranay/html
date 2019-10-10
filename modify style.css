@@ -316,6 +316,7 @@ input[type=file] {
 input[type=file] + label {
   width:70%;
   height:auto;
+  margin-left:25px;
   text-align:center;
   background-color: #000;
   border-radius: 4rem;
