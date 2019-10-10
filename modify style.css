@@ -313,16 +313,16 @@ div.desc {
 }
 .upload input[type=file]
 { 
-    width:auto; 
+    width:100%; 
+    cursor: pointer;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px; 
-    background-color:white; 
     padding: 12px 20px 12px 40px; 
 } 
 .upload input[type=submit] 
 {  
-   background-color:white;
+  background-color:white;
   float:right;
   color: black;
   box-sizing: border-box;
@@ -336,8 +336,6 @@ div.desc {
   
 @media screen and (max-width:600px){
   .upload input[type=text]{
-  float:right;
-  margin:0;
   width:100%;
   }
  .upload input[type=submit]{
