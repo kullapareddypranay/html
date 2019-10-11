@@ -305,7 +305,7 @@ div.desc {
 }
 .uploadcontent
 {
-	background-color:rgb(230, 255, 255);
+	background-color:rgb(230, 230, 230);
 	padding:75px;
 	border:2px solid black;
 	border-raddius:4px;
@@ -315,6 +315,7 @@ div.desc {
 .uploadcontent:hover
 {
 	 box-shadow:10px 10px 5px black;
+	 border:2px solid white;
 }
 	
 input[type=file] {
