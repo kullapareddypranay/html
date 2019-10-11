@@ -308,7 +308,7 @@ div.desc {
 	background-color:rgb(230, 230, 230);
 	padding:75px;
 	border:2px solid black;
-	border-raddius:4px;
+	border-raddius:10px;
 	text-align:center;
         margin-left:35px;
 }
