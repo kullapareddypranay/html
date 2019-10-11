@@ -307,7 +307,7 @@ div.desc {
 {
 	background-color:white;
 	padding:20px;
-	border:2px 2px black;
+	border:2px solid black;
 	border-raddius:4px;
 }
 .uploadcontent:hover
