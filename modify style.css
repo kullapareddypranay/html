@@ -303,6 +303,18 @@ div.desc {
   clear: both;
 
 }
+.uploadcontent
+{
+	background-color:white;
+	padding:20px;
+	border:2px 2px black;
+	border-raddius:4px;
+}
+.uploadcontent:hover
+{
+	 box-shadow:10px 10px 5px black;
+}
+	
 input[type=file] {
   border: 0;
   clip: rect(0, 0, 0, 0);
