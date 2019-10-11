@@ -305,8 +305,8 @@ div.desc {
 }
 .uploadcontent
 {
-	background-color:white;
-	padding:20px;
+	background-color:rgb(230, 255, 255);
+	padding:75px;
 	border:2px solid black;
 	border-raddius:4px;
 	text-align:center;
