@@ -361,4 +361,5 @@ input[type=file]:focus + label {
 #footer .gmail
 {
 	color:blue;
+	cursor:pointer;
 }
