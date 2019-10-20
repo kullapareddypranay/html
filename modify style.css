@@ -351,3 +351,10 @@ input[type=file] + label:hover {
 input[type=file]:focus + label {
   outline: 1px dotted #000;
 }
+#footer
+
+{
+
+	background-color: rgb(204, 204, 255);
+
+}
