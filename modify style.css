@@ -77,7 +77,6 @@ body
 	margin-top:15px;
 	margin-left:-15px;
 }
-
 .nav-bar  li:hover .submenu ul
 {  
     display:block;
@@ -152,11 +151,10 @@ body
 
  .column {
   float: left;
-  padding:20px;
   }
 
   .column.side {
- 
+   padding:20px;
    width: 35%;
    }
 
@@ -284,7 +282,7 @@ div.desc {
 
   .responsive {
 
-    width: 75%;
+    width: 100%;
 
   }
 
@@ -308,7 +306,6 @@ div.desc {
 	border:2px solid black;
 	border-radius:10px;
 	text-align:center;
-
 	cursor:pointer;
 }
 .uploadcontent:hover
