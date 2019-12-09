@@ -151,16 +151,15 @@ body
 
  .column {
   float: left;
+  padding:10px;
   }
 
   .column.side {
-   padding:20px;
    width: 35%;
    }
 
   .column.middle {
     width: 65%; 
-	padding:20px;
   }
 
 
@@ -178,6 +177,7 @@ body
     width: 100%;
    }
   }
+
 .search{
 	padding:15px;
 }
@@ -300,6 +300,7 @@ div.desc {
   clear: both;
 
 }
+
 .uploadcontent
 {
 	background-color:rgb(230, 230, 230);
