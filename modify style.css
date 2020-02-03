@@ -156,6 +156,7 @@ body
 
   .column.side {
    width: 35%;
+   padding:10px;
    }
 
   .column.middle {
